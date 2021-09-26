@@ -35,9 +35,12 @@ img{
 }
 
 .navbar{
-    background-color: var(--dark-primary);
     color: var(--white);
     height: 10vh;
+}
+
+.navbar-bg{
+    background-color: var(--dark-primary);
 }
 
 .menu__link{

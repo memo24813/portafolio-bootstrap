@@ -13,34 +13,38 @@
     <title>Guillermo Gutierrez - Web Developer</title>
 </head>
 <body>
-
-		<div id="inicio" class="container-lg p-3 navbar d-flex justify-content-between">
-			<h2>&lt;Guillermo Gutierrez/&gt;</h2>
-			<nav class="menu d-flex">
-				<a class="menu__link mx-4" href="#inicio">Inicio</a>
-				<a class="menu__link mx-4" href="#portafolio">Portafolio</a>
-				<a class="menu__link mx-4" href="#tecnologias">Tecnologias</a>
-				<a class="menu__link mx-4" href="#contacto">Contacto</a>
-			</nav>
+		<div class="navbar-bg">
+			<header id="inicio" class="container-lg p-3 navbar d-flex justify-content-between">
+				<h2>&lt;Guillermo Gutierrez/&gt;</h2>
+				<nav class="menu d-flex">
+					<a class="menu__link mx-4" href="#inicio">Inicio</a>
+					<a class="menu__link mx-4" href="#portafolio">Portafolio</a>
+					<a class="menu__link mx-4" href="#tecnologias">Tecnologias</a>
+					<a class="menu__link mx-4" href="#contacto">Contacto</a>
+				</nav>
+			</header>
 		</div>
 
-		<main class="container-lg main">
-			<div class="row h-100 align-items-center">
-
-				<section class="col-md">
-					<h1 class="m-4 text-center">My nombre es Guillermo Gutierrez</h1>
-					<p class="mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates necessitatibus nulla at, perferendis, obcaecati id incidunt iusto voluptate consequatur saepe repellat expedita molestiae. Iusto maxime eius distinctio, adipisci quia sapiente quas numquam perferendis vel sint maiores dolores. Pariatur nesciunt ullam vero consequatur eum esse optio, laborum rerum mollitia voluptas earum?</p>
-				</section>
-				<section class="col-md text-center">
-					<img class="h-50" src="img/persona.png" alt="Guillermo Gutierrez Programador">
-				</section>
-			</div>
-		</main>
+		<div class="main">
+			<main class="container-lg main">
+				<div class="row h-100 align-items-center">
+	
+					<section class="col-md">
+						<h1 class="m-4 text-center">My nombre es Guillermo Gutierrez</h1>
+						<p class="mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates necessitatibus nulla at, perferendis, obcaecati id incidunt iusto voluptate consequatur saepe repellat expedita molestiae. Iusto maxime eius distinctio, adipisci quia sapiente quas numquam perferendis vel sint maiores dolores. Pariatur nesciunt ullam vero consequatur eum esse optio, laborum rerum mollitia voluptas earum?</p>
+					</section>
+					<section class="col-md text-center">
+						<img class="h-50" src="img/persona.png" alt="Guillermo Gutierrez Programador">
+					</section>
+				</div>
+			</main>
+			
+		</div>
 
 		<section class="container-lg min-vh-100 pt-4" id="portafolio">
 			<h2 class="title text-center my-4 py-4">Portafolio</h2>
 			<div class="d-flex flex-column align-items-center vh-100">
-				<div class="row row-cols-2">
+				<div class="row row-cols-2 row-cols-sm-1">
 					<article class="col-md row align-items-center">
 						<div class="col text-center">
 							<img class="project-img" src="img/projects/netflix.png" alt="">
@@ -62,7 +66,7 @@
 					</article>
 				</div>
 	
-				<div class="row row-cols-2 my-4">
+				<div class="row row-cols-2 row-cols-sm-1 my-4">
 					<article class="col-md row align-items-center">
 						<div class="col text-center">
 							<img class="project-img" src="img/projects/netflix.png" alt="">
@@ -84,7 +88,7 @@
 					</article>
 				</div>
 	
-				<div class="row row-cols-2 my-4">
+				<div class="row row-cols-2 row-cols-sm-1 my-4">
 					<article class="col-md row align-items-center">
 						<div class="col text-center">
 							<img class="project-img" src="img/projects/netflix.png" alt="">
@@ -108,89 +112,91 @@
 			</div>
 		</section>
 
-		<section class="container-lg tecnology py-4" id="tecnologias">
-			<h2 class="title text-center py-4">Tecnologias</h2>
-		
-			<div class="row row-cols-2 my-4">
-				<article class="col-md row align-items-center">
-					<div class="col text-center">
-						<img class="tecnology-img" src="img/tecnologys/html.png" alt="">
-					</div>
-					<div class="col">
-						<h3>HTML</h3>
-					</div>
-				</article>
-
-				<article class="col-md row align-items-center">
-					<div class="col text-center">
-						<img class="tecnology-img" src="img/tecnologys/css.png" alt="">
-					</div>
-					<div class="col">
-						<h3>CSS</h3>
-					</div>
-				</article>
-			</div>
-
-			<div class="row row-cols-2 my-4">
-				<article class="col-md row align-items-center">
-					<div class="col text-center">
-						<img class="tecnology-img" src="img/tecnologys/js.png" alt="">
-					</div>
-					<div class="col">
-						<h3>JavaScript</h3>
-					</div>
-				</article>
-
-				<article class="col-md row align-items-center">
-					<div class="col text-center">
-						<img class="tecnology-img" src="img/tecnologys/sass.png" alt="">
-					</div>
-					<div class="col">
-						<h3>SASS</h3>
-					</div>
-				</article>
-			</div>
-
-			<div class="row row-cols-2 my-4">
-				<article class="col-md row align-items-center">
-					<div class="col text-center">
-						<img class="tecnology-img" src="img/tecnologys/react.png" alt="">
-					</div>
-					<div class="col">
-						<h3>React.js</h3>
-					</div>
-				</article>
-
-				<article class="col-md row align-items-center">
-					<div class="col text-center">
-						<img class="tecnology-img" src="img/tecnologys/graphql.png" alt="">
-					</div>
-					<div class="col">
-						<h3>GraphQL</h3>
-					</div>
-				</article>
-			</div>
-
-			<div class="row row-cols-2 my-4">
-				<article class="col-md row align-items-center">
-					<div class="col text-center">
-						<img class="tecnology-img" src="img/tecnologys/laravel.png" alt="">
-					</div>
-					<div class="col">
-						<h3>Laravel</h3>
-					</div>
-				</article>
-
-				<article class="col-md row align-items-center">
-					<div class="col text-center">
-						<img class="tecnology-img" src="img/tecnologys/mysql.png" alt="">
-					</div>
-					<div class="col">
-						<h3>MySQL</h3>
-					</div>
-				</article>
-			</div>
-		</section>
+		<div class="tecnology">
+			<section class="container-lg py-4" id="tecnologias">
+				<h2 class="title text-center py-4">Tecnologias</h2>
+			
+				<div class="row row-cols-2 my-4">
+					<article class="col-md row align-items-center">
+						<div class="col text-center">
+							<img class="tecnology-img" src="img/tecnologys/html.png" alt="">
+						</div>
+						<div class="col">
+							<h3>HTML</h3>
+						</div>
+					</article>
+	
+					<article class="col-md row align-items-center">
+						<div class="col text-center">
+							<img class="tecnology-img" src="img/tecnologys/css.png" alt="">
+						</div>
+						<div class="col">
+							<h3>CSS</h3>
+						</div>
+					</article>
+				</div>
+	
+				<div class="row row-cols-2 my-4">
+					<article class="col-md row align-items-center">
+						<div class="col text-center">
+							<img class="tecnology-img" src="img/tecnologys/js.png" alt="">
+						</div>
+						<div class="col">
+							<h3>JavaScript</h3>
+						</div>
+					</article>
+	
+					<article class="col-md row align-items-center">
+						<div class="col text-center">
+							<img class="tecnology-img" src="img/tecnologys/sass.png" alt="">
+						</div>
+						<div class="col">
+							<h3>SASS</h3>
+						</div>
+					</article>
+				</div>
+	
+				<div class="row row-cols-2 my-4">
+					<article class="col-md row align-items-center">
+						<div class="col text-center">
+							<img class="tecnology-img" src="img/tecnologys/react.png" alt="">
+						</div>
+						<div class="col">
+							<h3>React.js</h3>
+						</div>
+					</article>
+	
+					<article class="col-md row align-items-center">
+						<div class="col text-center">
+							<img class="tecnology-img" src="img/tecnologys/graphql.png" alt="">
+						</div>
+						<div class="col">
+							<h3>GraphQL</h3>
+						</div>
+					</article>
+				</div>
+	
+				<div class="row row-cols-2 my-4">
+					<article class="col-md row align-items-center">
+						<div class="col text-center">
+							<img class="tecnology-img" src="img/tecnologys/laravel.png" alt="">
+						</div>
+						<div class="col">
+							<h3>Laravel</h3>
+						</div>
+					</article>
+	
+					<article class="col-md row align-items-center">
+						<div class="col text-center">
+							<img class="tecnology-img" src="img/tecnologys/mysql.png" alt="">
+						</div>
+						<div class="col">
+							<h3>MySQL</h3>
+						</div>
+					</article>
+				</div>
+			</section>
+		</div>
 
 		<section class="container-lg py-4 mb-4" id="contacto">
 			<h2 class="title text-center my-4">Contacto</h2>
@@ -221,8 +227,10 @@
 			</div>
 		</section>
 
-		<footer class="container-lg footer text-center py-4">
-			© 2021 Copyright: <a href="#"> GuillermoGutierrez.com</a>
+		<footer class="footer text-center py-4">
+			<div class="container-lg">
+				© 2021 Copyright: <a href="#"> GuillermoGutierrez.com</a>
+			</div>
 		</footer>
 
     <!-- Bootstrap Bundle & Popper -->
